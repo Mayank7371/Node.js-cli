@@ -10,4 +10,6 @@ function main(fileName) {
     console.log(total + 1);
   });
 }
-main("a.txt");
+main(process.argv[2]);
+
+// console.log(process.argv);
